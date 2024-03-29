@@ -11,16 +11,12 @@ function convertCurrency(sumUSD, currency) {
     switch(currency) {
         case 'EUR':
             return sumUSD * UsdToEur;
-            break;
         case 'UAH':
             return sumUSD * UsdToUah;
-            break;
         case 'GBP':
             return sumUSD * UsdToGbp;
-            break;
         default:
-            return 'Invalid currency code!'
-            break;
+            return 'Invalid currency code!';
     }
 }
 console.log('TASK 1')
@@ -37,28 +33,20 @@ function getDayOfWeek(numberOfDay) {
     switch(numberOfDay) {
         case 1:
             return 'Monday';
-            break;
         case 2:
             return 'Tuesday';
-            break;
         case 3:
             return 'Wednesday';
-            break;
         case 4:
             return 'Thursday';
-            break;
         case 5:
             return 'Friday';
-            break;
         case 6:
             return 'Saturday';
-            break;
         case 7:
             return 'Sunday';
-            break;
         default:
-            return 'Invalid number!'
-            break;
+            return 'Invalid number!';
     }
 }
 console.log('TASK 2')
